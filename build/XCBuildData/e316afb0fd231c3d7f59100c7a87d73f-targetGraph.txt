@@ -1,0 +1,24 @@
+Target dependency graph (8 targets)
+PromisesObjC in Pods
+GoogleUtilities in Pods, depends on:
+PromisesObjC in Pods (explicit)
+nanopb in Pods
+GoogleAppMeasurement in Pods, depends on:
+GoogleUtilities in Pods (explicit)
+nanopb in Pods (explicit)
+GoogleUserMessagingPlatform in Pods
+Google-Mobile-Ads-SDK in Pods, depends on:
+GoogleAppMeasurement in Pods (explicit)
+GoogleUserMessagingPlatform in Pods (explicit)
+Pods-Memory Card Game in Pods, depends on:
+Google-Mobile-Ads-SDK in Pods (explicit)
+GoogleAppMeasurement in Pods (explicit)
+GoogleUserMessagingPlatform in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+PromisesObjC in Pods (explicit)
+nanopb in Pods (explicit)
+Memory Card Game in Memory Card Game, depends on:
+Pods-Memory Card Game in Pods (implicit dependency via file 'Pods_Memory_Card_Game.framework' in build phase 'Link Binary'
+PromisesObjC in Pods (implicit dependency via options '-framework FBLPromises' in build setting 'OTHER_LDFLAGS'
+GoogleUtilities in Pods (implicit dependency via options '-framework GoogleUtilities' in build setting 'OTHER_LDFLAGS'
+nanopb in Pods (implicit dependency via options '-framework nanopb' in build setting 'OTHER_LDFLAGS'

@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
+options: "9e251982d8e2c9fb7fc9da2051528e96a7690c7b1c212f7dd80661f536c4569b"
+build_start_time: [1652459163, 321600914]
+build_end_time: [1652459168, 912951946]
+inputs:
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Controller/AppsFlyerController.swift": !private [1634128187, 590434074]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Controller/GameController.swift": !private [1633822244, 482953071]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Controller/MainViewController.swift": !private [1634118518, 611615180]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Controller/PurchaceController.swift": !private [1633788476, 947408676]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Controller/WebViewController.swift": !private [1633788710, 808580398]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/IAP/IAPIdentifiers.swift": !private [1633770007, 698202610]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/IAP/IAPManager.swift": !private [1633811817, 654753923]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Model/APIClient.swift": !private [1633793069, 792528152]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Model/Card.swift": !private [1633802680, 983668804]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Model/MemoryGame.swift": !private [1633811237, 459436893]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Resources/AppDelegate.swift": !private [1634128187, 603968620]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/Resources/SceneDelegate.swift": !private [1633632188, 643896579]
+  "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game/View/CardCellView.swift": !private [1633802970, 559701919]

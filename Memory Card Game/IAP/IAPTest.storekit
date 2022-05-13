@@ -1,0 +1,48 @@
+{
+  "identifier" : "50580B90",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "FC01B156",
+      "localizations" : [
+        {
+          "description" : "Open + 5l evels",
+          "displayName" : "Open morel levels",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.alex.openMoreLevels",
+      "referenceName" : "Open More Levels",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "7AFD59C2",
+      "localizations" : [
+        {
+          "description" : "Remove Ads from all app",
+          "displayName" : "Remove Ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.alex.removeAds",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}

@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A856A8A727118ED70003680B /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856A8A627118ED70003680B /* IAPManager.swift */; };
+		A856A8A927118EE40003680B /* IAPIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856A8A827118EE40003680B /* IAPIdentifiers.swift */; };
+		A856A8AC27119CF50003680B /* IAPTest.storekit in Resources */ = {isa = PBXBuildFile; fileRef = A856A8AB27119B430003680B /* IAPTest.storekit */; };
+		A856A8AE2711D3480003680B /* PurchaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A856A8AD2711D3480003680B /* PurchaceController.swift */; };
+		A87FF50E2716E24600E0EC7C /* AppsFlyerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87FF50D2716E24600E0EC7C /* AppsFlyerController.swift */; };
 		A8D5E8A6270F773C009C7F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5E8A5270F773C009C7F91 /* AppDelegate.swift */; };
 		A8D5E8A8270F773C009C7F91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5E8A7270F773C009C7F91 /* SceneDelegate.swift */; };
-		A8D5E8AA270F773C009C7F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5E8A9270F773C009C7F91 /* ViewController.swift */; };
+		A8D5E8AA270F773C009C7F91 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5E8A9270F773C009C7F91 /* MainViewController.swift */; };
 		A8D5E8AD270F773C009C7F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D5E8AB270F773C009C7F91 /* Main.storyboard */; };
 		A8D5E8AF270F773D009C7F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D5E8AE270F773D009C7F91 /* Assets.xcassets */; };
 		A8D5E8B2270F773D009C7F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D5E8B0270F773D009C7F91 /* LaunchScreen.storyboard */; };
+		A8D5E8BB270F77B7009C7F91 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5E8BA270F77B7009C7F91 /* Card.swift */; };
+		A8D5E8BD270F79E6009C7F91 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5E8BC270F79E6009C7F91 /* MemoryGame.swift */; };
+		A8FD874B2710454E0076A6F2 /* CardCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD874A2710454E0076A6F2 /* CardCellView.swift */; };
+		A8FD8750271047050076A6F2 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD874F271047050076A6F2 /* GameController.swift */; };
+		A8FD875227104A6B0076A6F2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD875127104A6B0076A6F2 /* APIClient.swift */; };
+		A8FD8754271076CA0076A6F2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD8753271076CA0076A6F2 /* WebViewController.swift */; };
+		F96E25A19600FC3ACB21D8D9 /* Pods_Memory_Card_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8F9FD18729831F0A103A88 /* Pods_Memory_Card_Game.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13A05B7D17F569BA7CF20FA0 /* Pods-Memory Card Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memory Card Game.release.xcconfig"; path = "Target Support Files/Pods-Memory Card Game/Pods-Memory Card Game.release.xcconfig"; sourceTree = "<group>"; };
+		4FBB71F73BA694EFB91090CA /* Pods-Memory Card Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memory Card Game.debug.xcconfig"; path = "Target Support Files/Pods-Memory Card Game/Pods-Memory Card Game.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8F9FD18729831F0A103A88 /* Pods_Memory_Card_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memory_Card_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A856A8A627118ED70003680B /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		A856A8A827118EE40003680B /* IAPIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPIdentifiers.swift; sourceTree = "<group>"; };
+		A856A8AB27119B430003680B /* IAPTest.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = IAPTest.storekit; sourceTree = "<group>"; };
+		A856A8AD2711D3480003680B /* PurchaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaceController.swift; sourceTree = "<group>"; };
+		A87FF50D2716E24600E0EC7C /* AppsFlyerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerController.swift; sourceTree = "<group>"; };
 		A8D5E8A2270F773C009C7F91 /* Memory Card Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Card Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D5E8A5270F773C009C7F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8D5E8A7270F773C009C7F91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8D5E8A9270F773C009C7F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8D5E8A9270F773C009C7F91 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A8D5E8AC270F773C009C7F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8D5E8AE270F773D009C7F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8D5E8B1270F773D009C7F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8D5E8B3270F773D009C7F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D5E8BA270F77B7009C7F91 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A8D5E8BC270F79E6009C7F91 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		A8FD874A2710454E0076A6F2 /* CardCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCellView.swift; sourceTree = "<group>"; };
+		A8FD874F271047050076A6F2 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		A8FD875127104A6B0076A6F2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A8FD8753271076CA0076A6F2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F96E25A19600FC3ACB21D8D9 /* Pods_Memory_Card_Game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261AC8620D658724E312586C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F9FD18729831F0A103A88 /* Pods_Memory_Card_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A856A8A527118ECC0003680B /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				A856A8A627118ED70003680B /* IAPManager.swift */,
+				A856A8A827118EE40003680B /* IAPIdentifiers.swift */,
+				A856A8AB27119B430003680B /* IAPTest.storekit */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
 		A8D5E899270F773C009C7F91 = {
 			isa = PBXGroup;
 			children = (
 				A8D5E8A4270F773C009C7F91 /* Memory Card Game */,
 				A8D5E8A3270F773C009C7F91 /* Products */,
+				AEE1571C52042532EA0C9721 /* Pods */,
+				261AC8620D658724E312586C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,65 @@
 		A8D5E8A4270F773C009C7F91 /* Memory Card Game */ = {
 			isa = PBXGroup;
 			children = (
-				A8D5E8A5270F773C009C7F91 /* AppDelegate.swift */,
-				A8D5E8A7270F773C009C7F91 /* SceneDelegate.swift */,
-				A8D5E8A9270F773C009C7F91 /* ViewController.swift */,
-				A8D5E8AB270F773C009C7F91 /* Main.storyboard */,
-				A8D5E8AE270F773D009C7F91 /* Assets.xcassets */,
-				A8D5E8B0270F773D009C7F91 /* LaunchScreen.storyboard */,
+				A856A8A527118ECC0003680B /* IAP */,
+				A8D5E8B9270F77AE009C7F91 /* Model */,
+				A8FD8749271045390076A6F2 /* View */,
+				A8FD874C271046D90076A6F2 /* Controller */,
+				A8FD8755271094610076A6F2 /* Resources */,
 				A8D5E8B3270F773D009C7F91 /* Info.plist */,
 			);
 			path = "Memory Card Game";
+			sourceTree = "<group>";
+		};
+		A8D5E8B9270F77AE009C7F91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD875127104A6B0076A6F2 /* APIClient.swift */,
+				A8D5E8BA270F77B7009C7F91 /* Card.swift */,
+				A8D5E8BC270F79E6009C7F91 /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8FD8749271045390076A6F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5E8AB270F773C009C7F91 /* Main.storyboard */,
+				A8FD874A2710454E0076A6F2 /* CardCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8FD874C271046D90076A6F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5E8A9270F773C009C7F91 /* MainViewController.swift */,
+				A8FD874F271047050076A6F2 /* GameController.swift */,
+				A8FD8753271076CA0076A6F2 /* WebViewController.swift */,
+				A856A8AD2711D3480003680B /* PurchaceController.swift */,
+				A87FF50D2716E24600E0EC7C /* AppsFlyerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8FD8755271094610076A6F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5E8AE270F773D009C7F91 /* Assets.xcassets */,
+				A8D5E8B0270F773D009C7F91 /* LaunchScreen.storyboard */,
+				A8D5E8A5270F773C009C7F91 /* AppDelegate.swift */,
+				A8D5E8A7270F773C009C7F91 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AEE1571C52042532EA0C9721 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FBB71F73BA694EFB91090CA /* Pods-Memory Card Game.debug.xcconfig */,
+				13A05B7D17F569BA7CF20FA0 /* Pods-Memory Card Game.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8D5E8B6270F773D009C7F91 /* Build configuration list for PBXNativeTarget "Memory Card Game" */;
 			buildPhases = (
+				000278C4BF5C2DBB04C7618B /* [CP] Check Pods Manifest.lock */,
 				A8D5E89E270F773C009C7F91 /* Sources */,
 				A8D5E89F270F773C009C7F91 /* Frameworks */,
 				A8D5E8A0270F773C009C7F91 /* Resources */,
+				7B8012FDC79E9EF7D84E999C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A856A8AC27119CF50003680B /* IAPTest.storekit in Resources */,
 				A8D5E8B2270F773D009C7F91 /* LaunchScreen.storyboard in Resources */,
 				A8D5E8AF270F773D009C7F91 /* Assets.xcassets in Resources */,
 				A8D5E8AD270F773C009C7F91 /* Main.storyboard in Resources */,
@@ -132,14 +232,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		000278C4BF5C2DBB04C7618B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memory Card Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8012FDC79E9EF7D84E999C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memory Card Game/Pods-Memory Card Game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memory Card Game/Pods-Memory Card Game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Memory Card Game/Pods-Memory Card Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8D5E89E270F773C009C7F91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8D5E8AA270F773C009C7F91 /* ViewController.swift in Sources */,
+				A8FD874B2710454E0076A6F2 /* CardCellView.swift in Sources */,
+				A856A8A927118EE40003680B /* IAPIdentifiers.swift in Sources */,
+				A87FF50E2716E24600E0EC7C /* AppsFlyerController.swift in Sources */,
+				A8FD8754271076CA0076A6F2 /* WebViewController.swift in Sources */,
+				A8D5E8AA270F773C009C7F91 /* MainViewController.swift in Sources */,
 				A8D5E8A6270F773C009C7F91 /* AppDelegate.swift in Sources */,
+				A8FD875227104A6B0076A6F2 /* APIClient.swift in Sources */,
+				A856A8AE2711D3480003680B /* PurchaceController.swift in Sources */,
+				A8D5E8BD270F79E6009C7F91 /* MemoryGame.swift in Sources */,
+				A856A8A727118ED70003680B /* IAPManager.swift in Sources */,
 				A8D5E8A8270F773C009C7F91 /* SceneDelegate.swift in Sources */,
+				A8D5E8BB270F77B7009C7F91 /* Card.swift in Sources */,
+				A8FD8750271047050076A6F2 /* GameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +435,7 @@
 		};
 		A8D5E8B7270F773D009C7F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBB71F73BA694EFB91090CA /* Pods-Memory Card Game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,6 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Memory-Card-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,6 +456,7 @@
 		};
 		A8D5E8B8270F773D009C7F91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A05B7D17F569BA7CF20FA0 /* Pods-Memory Card Game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Memory-Card-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

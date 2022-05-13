@@ -1,0 +1,91 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "e3f5fd34f7f4cee54ec7c80f8e3695d149cc7edd7b846a377b35c959b34fc351"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4270ece5bdcb6dd56c56b1d92c7c8ffd58"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42cd53d937e824fad9f4527eeeb684cb40"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42bbbb266cb4185458611c79148d1a9d13"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c777611770584bd7c20ebf80e3d30200"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42718890dfdac589615663a02d43d9af3e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd423f9cd8528bff9660d24bfcb5f326602f"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f10882e1684b8a3dfdec597bc0a47af3"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420062393f91a1d2d94e3e5ed3a5aa5da9"
+    }
+  ],
+  "containerPath" : "/Users/alexandr/Desktop/allP/Memory Card Game/Memory Card Game.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/alexandr/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/alexandr/Library/Developer/Xcode/DerivedData/Memory_Card_Game-evgghjoceeuxhyfjlojaaszjrllb/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/alexandr/Library/Developer/Xcode/DerivedData/Memory_Card_Game-evgghjoceeuxhyfjlojaaszjrllb/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.4.1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "00008110-000C45081EC2801E",
+          "TARGET_DEVICE_MODEL" : "iPhone14,4",
+          "TARGET_DEVICE_OS_VERSION" : "15.4.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
